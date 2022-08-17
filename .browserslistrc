@@ -1,0 +1,6 @@
+# Browsers that we support
+cover 99.5%
+last 5 version
+not ie <= 10
+ios_saf >= 10
+safari >= 10
