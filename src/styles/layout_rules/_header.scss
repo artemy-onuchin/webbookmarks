@@ -1,3 +1,63 @@
-header {
-  position: relative;
+.header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 99;
+  align-items: center;
+  height: 50px;
+  padding: 0 8px;
+  background: #f00;
+
+  @include bp540 {
+    padding: 0 16px;
+  }
+
+  &__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.logo {
+  width: 200px;
+  height: 30px;
+  background-color: #446569;
+}
+
+.button {
+  display: block;
+  width: 100px;
+  height: 20px;
+  border: none;
+  outline: none;
+}
+
+.buttons {
+  display: none;
+
+  @include bp768 {
+    display: grid;
+    grid-gap: 8px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.reg {
+  background: lime;
+}
+
+.login {
+  background: seagreen;
+}
+
+.burger {
+  width: 24px;
+  height: 24px;
+
+  @include bp768 {
+    display: none;
+  }
 }

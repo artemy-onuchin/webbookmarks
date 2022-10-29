@@ -1,7 +1,39 @@
-main {
-  position: relative;
+.main {
+  flex-grow: 1;
+  padding: 58px 8px 8px;
+  background: #00f;
+
+  @include bp540 {
+    padding: 64px 16px 16px;
+  }
 }
 
-.content {
-  position: relative;
+.card__list {
+  display: grid;
+  grid-gap: 8px;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 1800px;
+  margin: 0 auto;
+
+  @include bp540 {
+    grid-gap: 16px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @include bp768 {
+    grid-gap: 16px;
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  @include bp1024 {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  @include bp1280 {
+    grid-template-columns: repeat(7, 1fr);
+  }
+
+  @include bp1440 {
+    grid-template-columns: repeat(8, 1fr);
+  }
 }

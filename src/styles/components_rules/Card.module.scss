@@ -1,0 +1,23 @@
+@import "../mixins";
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  padding-top: 60%;
+  background: #300886;
+  color: #fff;
+
+  &:last-child {
+    grid-column: 1 / -1;
+    padding-top: 30%;
+    background: pink;
+
+    @include bp540 {
+      grid-column: auto;
+      padding-top: 60%;
+    }
+  }
+}
