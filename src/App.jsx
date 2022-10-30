@@ -1,9 +1,50 @@
+import { useState, useEffect } from 'react';
+
+import Header from './components/layout/Header';
+import Navigation from './components/layout/Navigation';
+import Card from './components/general/Card';
+import Footer from './components/layout/Footer';
+
 function App() {
-    let projectName = 'Web Bookmarks';
+    const [menuStatus, setMenuStatus] = useState('')
+
+    useEffect(() => {
+        if(menuStatus) {
+            document.body.className = 'no-scroll'
+        } else {
+            document.body.className = ''
+        }
+    }, [menuStatus])
 
     return (
-        <div className="App">
-            <h1>{projectName}</h1>
+        <div className="wrapper">
+            <Header menuStatus={menuStatus} onClickBurger={() => setMenuStatus(!menuStatus)}/>
+            <Navigation open={menuStatus}/>
+            <main className="main">
+                <h1 className="card__list-name">Tab group #1</h1>
+                <div className="card__list">
+                    <Card name="YouTube"/>
+                    <Card name="Google"/>
+                    <Card name="Instagram"/>
+                    <Card name="Facebook"/>
+                    <Card name="Yahoo"/>
+                    <Card name="Microsoft"/>
+                    <Card name="Wikipedia"/>
+                    <Card name="Twitter"/>
+                    <Card name="Amazon"/>
+                    <Card name="Ebay"/>
+                    <Card name="Apple"/>
+                    <Card name="Paypal"/>
+                    <Card name="Rapidshare"/>
+                    <Card name="Adobe"/>
+                    <Card name="TikTok"/>
+                    <Card name="Minecraft"/>
+                    <Card name="Steam"/>
+                    <Card name="Dribbble"/>
+                    <Card name="Behance"/>
+                </div>
+            </main>
+            <Footer/>
         </div>
     );
 }

@@ -1,3 +1,11 @@
-footer {
-  position: relative;
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: $dev-color-800;
+
+  @include bp540 {
+    padding: 16px;
+  }
 }

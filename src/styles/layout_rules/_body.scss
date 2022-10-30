@@ -4,11 +4,24 @@ html {
 }
 
 body {
-  position: relative;
   width: 100%;
+  min-width: 320px;
   height: 100%;
   color: $color-text;
   font-family: $font-family, sans-serif;
   font-size: $size * 2;
   line-height: 1.5;
+
+  &.no-scroll {
+    overflow: hidden;
+  }
+}
+
+.wrapper {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  min-width: 320px;
+  min-height: 100vh;
+  background: #000;
 }

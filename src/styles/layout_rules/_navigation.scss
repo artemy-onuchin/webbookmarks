@@ -1,3 +1,65 @@
-nav {
-  position: relative;
+.nav {
+  display: flex;
+  position: fixed;
+  top: 50px;
+  bottom: 0;
+  left: 0;
+  z-index: 80;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  padding: 16px;
+  transform: translateX(-100%);
+  transition: 200ms ease-in-out;
+  background: $dev-color-900;
+  overflow: hidden;
+
+  @media (min-width: 766px) {
+    transition: 0ms;
+  }
+
+  @include bp768 {
+    display: grid;
+    position: relative;
+    justify-content: start;
+    grid-auto-flow: column;
+    transform: translate(0);
+    overflow-x: auto;
+  }
+
+  @include bp1440 {
+    padding: 16px 32px;
+  }
+
+  &._isOpen {
+    transform: translateX(0);
+  }
+}
+
+.link {
+  width: 200px;
+  height: auto;
+  margin-bottom: 12px;
+  background: $dev-color-300;
+
+  @include bp768 {
+    margin-right: 12px;
+    margin-bottom: 0;
+  }
+}
+
+.link:nth-child(2) {
+  width: 180px;
+}
+
+.link:nth-child(3) {
+  width: 240px;
+}
+
+.link:nth-child(5) {
+  width: 210px;
+}
+
+.link:nth-child(7) {
+  width: 120px;
 }

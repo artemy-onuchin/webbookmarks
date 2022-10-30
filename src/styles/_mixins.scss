@@ -42,7 +42,7 @@
 }
 
 // fonts style
-@mixin fontStyle($fontSize, $lh, $weight) {
+@mixin font-style($fontSize, $lh, $weight) {
   font-size: $fontSize;
   font-weight: $weight;
   line-height: $lh;
