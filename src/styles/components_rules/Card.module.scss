@@ -1,4 +1,5 @@
 @import "../mixins";
+@import "../vars";
 
 .card {
   display: flex;
@@ -7,13 +8,12 @@
   width: 100%;
   height: auto;
   padding-top: 60%;
-  background: #300886;
+  background: $dev-color-800;
   color: #fff;
 
   &:last-child {
     grid-column: 1 / -1;
     padding-top: 30%;
-    background: pink;
 
     @include bp540 {
       grid-column: auto;

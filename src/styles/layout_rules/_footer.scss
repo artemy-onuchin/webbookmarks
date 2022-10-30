@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: center;
   padding: 10px;
-  background-color: #f0f;
+  background-color: $dev-color-800;
 
   @include bp540 {
     padding: 16px;

@@ -1,15 +1,18 @@
 import React from 'react'
 
-export default function Header() {
+export default function Header({menuStatus, onClickBurger}) {
     return (
         <header className="header">
-            <div className="header__inner container">
-                <div className="logo"></div>
-                <button className="button burger" data-classname="burger"></button>
-                <div className="buttons">
-                    <button className="button reg"></button>
-                    <button className="button login"></button>
-                </div>
+            <div className="logo"></div>
+
+            <button
+                className={`burger ${menuStatus ? '_isActive' : ''}`}
+                onClick={() => onClickBurger(!menuStatus)}
+            ></button>
+
+            <div className="buttons">
+                <button className="button reg"></button>
+                <button className="button login"></button>
             </div>
         </header>
     )

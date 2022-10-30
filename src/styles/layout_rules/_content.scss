@@ -1,7 +1,7 @@
 .main {
   flex-grow: 1;
   padding: 58px 8px 8px;
-  background: #00f;
+  background: $dev-color-500;
 
   @include bp540 {
     padding: 64px 16px 16px;
@@ -12,7 +12,8 @@
   display: grid;
   grid-gap: 8px;
   grid-template-columns: repeat(2, 1fr);
-  max-width: 1800px;
+  width: 100%;
+  max-width: 1680px;
   margin: 0 auto;
 
   @include bp540 {
@@ -35,5 +36,12 @@
 
   @include bp1440 {
     grid-template-columns: repeat(8, 1fr);
+  }
+
+  &-name {
+    max-width: 1680px;
+    margin: 16px auto 8px;
+    font-size: 24px;
+    line-height: 28px;
   }
 }

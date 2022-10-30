@@ -1,15 +1,28 @@
+import { useState, useEffect } from 'react';
+
 import Header from './components/layout/Header';
 import Navigation from './components/layout/Navigation';
 import Card from './components/general/Card';
 import Footer from './components/layout/Footer';
 
 function App() {
+    const [menuStatus, setMenuStatus] = useState('')
+
+    useEffect(() => {
+        if(menuStatus) {
+            document.body.className = 'no-scroll'
+        } else {
+            document.body.className = ''
+        }
+    }, [menuStatus])
+
     return (
-        <div className="App">
-            <Header/>
-            <Navigation/>
+        <div className="wrapper">
+            <Header menuStatus={menuStatus} onClickBurger={() => setMenuStatus(!menuStatus)}/>
+            <Navigation open={menuStatus}/>
             <main className="main">
-                <div className="card__list container">
+                <h1 className="card__list-name">Tab group #1</h1>
+                <div className="card__list">
                     <Card name="YouTube"/>
                     <Card name="Google"/>
                     <Card name="Instagram"/>

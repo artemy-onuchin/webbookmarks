@@ -1,10 +1,11 @@
 @import "../mixins";
+@import "../vars";
 
 .item {
   width: 40px;
   height: 40px;
   margin-right: 16px;
-  background: #0ff;
+  background: $dev-color-300;
 
   @include bp540 {
     width: 60px;

@@ -4,9 +4,6 @@ html {
 }
 
 body {
-  display: flex;
-  position: relative;
-  flex-direction: column;
   width: 100%;
   min-width: 320px;
   height: 100%;
@@ -14,11 +11,17 @@ body {
   font-family: $font-family, sans-serif;
   font-size: $size * 2;
   line-height: 1.5;
+
+  &.no-scroll {
+    overflow: hidden;
+  }
 }
 
-.container {
-  width: 100%;
-  max-width: 1800px;
-  margin: 0 auto;
-  background: #ff0;
+.wrapper {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  min-width: 320px;
+  min-height: 100vh;
+  background: #000;
 }
