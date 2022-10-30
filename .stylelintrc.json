@@ -10,6 +10,7 @@
     "selector-no-vendor-prefix": null,
     "property-no-vendor-prefix": null,
     "plugin/declaration-block-no-ignored-properties": true,
+    "selector-class-pattern": null,
     "order/order": [
       "custom-properties",
       "dollar-variables",
@@ -19,6 +20,12 @@
         "hasBlock": false
       },
       "declarations",
+      "at-rules",
+      {
+        "type": "at-rule",
+        "name": "include",
+        "hasBlock": true
+      },
       {
         "type": "rule",
         "selector": "&::before"
@@ -79,13 +86,7 @@
       {
         "type": "rule",
         "selector": ".* &"
-      },
-      {
-        "type": "at-rule",
-        "name": "include",
-        "hasBlock": true
-      },
-      "at-rules"
+      }
     ],
     "order/properties-alphabetical-order": null,
     "order/properties-order": [
