@@ -1,16 +1,28 @@
-import React from 'react'
+import React, { useState } from 'react';
 
-export default function Navigation({open}) {
+import { Groups } from '../../data/data';
+
+export default function Navigation({open, onClickTabs}) {
+    const [activeTab, setActiveTab] = useState(Groups[0].id);
+
+    console.log(activeTab);
+
+    let tabs = Groups.map((item) => {
+        return(
+            <span
+                key={item.id}
+                onClick={() => onClickTabs(item.id, setActiveTab(item.id))}
+                className={`link${activeTab === item.id ? ' _active' : ''}`}
+                style={{order: item.position}}
+            >
+                {item.title}
+            </span>
+        )
+    })
+
     return (
         <nav className={`nav${open ? ' _isOpen' : ''}`}>
-            <a href="sonelink" className="link">Link #1</a>
-            <a href="sonelink" className="link">Link #2</a>
-            <a href="sonelink" className="link">Link #3</a>
-            <a href="sonelink" className="link">Link #4</a>
-            <a href="sonelink" className="link">Link #5</a>
-            <a href="sonelink" className="link">Link #6</a>
-            <a href="sonelink" className="link">Link #7</a>
-            <a href="sonelink" className="link">Link #8</a>
+            {tabs}
         </nav>
     )
 }

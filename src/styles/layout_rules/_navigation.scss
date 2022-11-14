@@ -1,17 +1,17 @@
 .nav {
   display: flex;
+  flex-direction: column;
   position: fixed;
+  left: 0;
   top: 50px;
   bottom: 0;
-  left: 0;
   z-index: 80;
-  flex-direction: column;
   width: 100%;
   height: auto;
-  padding: 16px;
+  padding: $size * 2;
   transform: translateX(-100%);
   transition: 200ms ease-in-out;
-  background: $dev-color-900;
+  background: $color-white;
   overflow: hidden;
 
   @media (min-width: 766px) {
@@ -20,15 +20,16 @@
 
   @include bp768 {
     display: grid;
-    position: relative;
     justify-content: start;
     grid-auto-flow: column;
+    position: fixed;
+    bottom: unset;
     transform: translate(0);
     overflow-x: auto;
   }
 
   @include bp1440 {
-    padding: 16px 32px;
+    padding: $size + 4 $size * 4;
   }
 
   &._isOpen {
@@ -37,29 +38,24 @@
 }
 
 .link {
-  width: 200px;
-  height: auto;
   margin-bottom: 12px;
-  background: $dev-color-300;
+  padding: $size $size * 2;
+  transition: $transition;
+  border-radius: 3px;
+  white-space: nowrap;
+  cursor: pointer;
 
   @include bp768 {
     margin-right: 12px;
     margin-bottom: 0;
   }
-}
 
-.link:nth-child(2) {
-  width: 180px;
-}
+  &:hover {
+    background-color: rgba($color-blue, 0.2);
+  }
 
-.link:nth-child(3) {
-  width: 240px;
-}
-
-.link:nth-child(5) {
-  width: 210px;
-}
-
-.link:nth-child(7) {
-  width: 120px;
+  &._active {
+    background-color: $color-blue;
+    color: $color-white;
+  }
 }
