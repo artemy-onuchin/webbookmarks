@@ -1194,9 +1194,9 @@ export const Data = [
         'title':'Youtube',
         'description':'',
         'url':'http://www.youtube.com',
-        'thumbnailRemote':'https://i.imgur.com/yEC5MsS.png',
+        'thumbnailRemote':false,
         'thumbnail':false,
-        'icon':false,
+        'icon':'youtube',
         'position':14,
         'idgroup':0
     },
