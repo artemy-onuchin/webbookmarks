@@ -8,7 +8,7 @@ import { Groups } from './data/data';
 
 function App() {
     const [menuStatus, setMenuStatus] = useState('');
-    const [activeGroupId, setActiveGroupId] = useState(Groups[0].id)
+    const [activeGroupId, setActiveGroupId] = useState(localStorage.getItem('group') || Groups[0].id)
 
     useEffect(() => {
         if(menuStatus) {
@@ -18,11 +18,17 @@ function App() {
         }
     }, [menuStatus])
 
+    useEffect(() => {
+        localStorage.setItem('group', activeGroupId)
+    }, [activeGroupId]);
+
+    console.log('activeGroupId: ' + activeGroupId);
+
     return (
         <div className="wrapper">
             <Header menuStatus={menuStatus} onClickBurger={() => setMenuStatus(!menuStatus)}/>
             <Navigation open={menuStatus} onClickTabs={tab => setActiveGroupId(tab)}/>
-            <Content active={activeGroupId}/>
+            <Content active={+activeGroupId}/>
             <Footer/>
         </div>
     );
