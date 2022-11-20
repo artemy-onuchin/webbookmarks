@@ -1,10 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 import { Groups } from '../../data/data';
 
-export default function Navigation({open, onClickTabs}) {
-
-    const [activeTab, setActiveTab] = useState(localStorage.getItem('group'));
+export default function Navigation({open, onClickTabs, activeTab}) {
 
     console.log('activeTab: ' + activeTab);
 
@@ -12,7 +10,7 @@ export default function Navigation({open, onClickTabs}) {
         return(
             <span
                 key={item.id}
-                onClick={() => onClickTabs(item.id, setActiveTab(item.id))}
+                onClick={() => onClickTabs(item.id)}
                 className={`link${+activeTab === item.id ? ' _active' : ''}`}
                 style={{order: item.position}}
             >
