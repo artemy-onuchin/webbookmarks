@@ -10,6 +10,7 @@
 
 .card__list {
   display: grid;
+  grid-auto-rows: minmax(max-content, 1fr);
   grid-gap: 8px;
   grid-template-columns: repeat(2, 1fr);
   width: 100%;
@@ -17,16 +18,15 @@
   margin: 0 auto;
 
   @include bp540 {
-    grid-gap: 16px;
     grid-template-columns: repeat(3, 1fr);
   }
 
   @include bp768 {
-    grid-gap: 16px;
     grid-template-columns: repeat(5, 1fr);
   }
 
   @include bp1024 {
+    grid-gap: 16px;
     grid-template-columns: repeat(6, 1fr);
   }
 
@@ -40,7 +40,7 @@
 
   &-name {
     max-width: 1680px;
-    margin: 16px auto 8px;
+    margin: 24px auto 8px;
     font-size: 24px;
     line-height: 28px;
   }
