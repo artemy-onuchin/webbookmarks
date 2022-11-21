@@ -3,7 +3,7 @@ import React from 'react';
 import style from '../../styles/components_rules/Card.module.scss'
 
 const Card = ({
-    title, active, idgroup, position, url, thumbnailRemote, thumbnail, icon
+    title, active, idgroup, position, url, thumbnailRemote, thumbnail, icon, hideTitle
 }) => {
 
     let backgroundImage = () => {
@@ -40,13 +40,12 @@ const Card = ({
             style={{order: position}}
         >
             <span
-                className={`${style.card__picture} ${pictureClass()}`}
+                className={`${style.card__picture} ${pictureClass()} ${hideTitle && style['_not-title']}`}
                 style={{backgroundImage: backgroundImage()}}
             ></span>
-            <span className={style.card__title}>
+            {!hideTitle && <span className={style.card__title}>
                 <span>{title}</span>
-            </span>
-
+            </span>}
         </a>)
     );
 }

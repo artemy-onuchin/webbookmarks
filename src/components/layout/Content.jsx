@@ -19,20 +19,21 @@ const Content = ({active}) => {
                 active={active}
                 position={item.position}
                 idgroup={item.idgroup}
+                hideTitle={item.hideTitle}
             />
         )
     })
 
-    let groupTitle = Groups.map((item)=>{
+    let groupDesc = Groups.map((item)=>{
         return(
-            item.id === active && item.title
+            item.id === active && item.description
         )
     })
 
     return (
         <main className="main">
             <h1 className="card__list-name">
-                {groupTitle}
+                {groupDesc}
             </h1>
             <div className="card__list">
                 {cardList}

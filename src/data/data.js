@@ -4,6 +4,7 @@ export const Data = [
     {
         'id':3,
         'title':'Soundcloud',
+        'hideTitle': false,
         'description':'',
         'url':'https://soundcloud.com',
         'thumbnailRemote':'http://cdn.embed.ly/providers/logos/soundcloud.png',
@@ -15,6 +16,7 @@ export const Data = [
     {
         'id':8,
         'title':'SE Ranking',
+        'hideTitle': false,
         'description':'',
         'url':'https://online.seranking.com/admin.site.list.html',
         'thumbnailRemote':false,
@@ -26,6 +28,7 @@ export const Data = [
     {
         'id':9,
         'title':'WebFontGenerator',
+        'hideTitle': false,
         'description':'',
         'url':'https://www.fontsquirrel.com/tools/webfont-generator',
         'thumbnailRemote':'',
@@ -37,6 +40,7 @@ export const Data = [
     {
         'id':10,
         'title':'Оптимизация JPG',
+        'hideTitle': false,
         'description':'',
         'url':'https://tinyjpg.com/',
         'thumbnailRemote':'',
@@ -48,6 +52,7 @@ export const Data = [
     {
         'id':11,
         'title':'Оптимизация PNG',
+        'hideTitle': false,
         'description':'',
         'url':'https://tinypng.com/',
         'thumbnailRemote':'',
@@ -59,6 +64,7 @@ export const Data = [
     {
         'id':12,
         'title':'BitBucket',
+        'hideTitle': false,
         'description':'',
         'url':'https://bitbucket.org/dashboard/repositories',
         'thumbnailRemote':'https://wac-cdn.atlassian.com/dam/jcr:e2a6f06f-b3d5-4002-aed3-73539c56a2eb/bitbucket_rgb_blue.png',
@@ -70,6 +76,7 @@ export const Data = [
     {
         'id':14,
         'title':'Google Fonts',
+        'hideTitle': false,
         'description':'',
         'url':'https://fonts.google.com/',
         'thumbnailRemote':false,
@@ -81,6 +88,7 @@ export const Data = [
     {
         'id':15,
         'title':'Бесплатные фото',
+        'hideTitle': false,
         'description':'',
         'url':'https://unsplash.com/',
         'thumbnailRemote':false,
@@ -92,6 +100,7 @@ export const Data = [
     {
         'id':16,
         'title':'Шаблон',
+        'hideTitle': false,
         'description':'',
         'url':'https://themeforest.net/',
         'thumbnailRemote':'http://www.stepstoselfemployment.com/wp-content/uploads/2014/05/themeforest-logo.jpg',
@@ -103,6 +112,7 @@ export const Data = [
     {
         'id':17,
         'title':'text.ru',
+        'hideTitle': false,
         'description':'',
         'url':'http://text.ru/',
         'thumbnailRemote':'',
@@ -114,6 +124,7 @@ export const Data = [
     {
         'id':19,
         'title':'Dribbble',
+        'hideTitle': false,
         'description':'',
         'url':'https://dribbble.com/shots',
         'thumbnailRemote':false,
@@ -125,6 +136,7 @@ export const Data = [
     {
         'id':20,
         'title':'Сайт дня',
+        'hideTitle': false,
         'description':'',
         'url':'http://www.awwwards.com/awards-of-the-day/',
         'thumbnailRemote':'',
@@ -136,6 +148,7 @@ export const Data = [
     {
         'id':21,
         'title':'Deep Techno',
+        'hideTitle': false,
         'description':'',
         'url':'https://promodj.com/mixes/deep_techno',
         'thumbnailRemote':false,
@@ -147,6 +160,7 @@ export const Data = [
     {
         'id':22,
         'title':'Deep House',
+        'hideTitle': false,
         'description':'',
         'url':'http://promodj.com/mixes/deep_house',
         'thumbnailRemote':'http://www.deephouseamsterdam.com/wp-content/uploads/2014/03/deep-house-london.jpg',
@@ -158,6 +172,7 @@ export const Data = [
     {
         'id':23,
         'title':'Агрегатор бесплатных фото',
+        'hideTitle': false,
         'description':'',
         'url':'http://thestocks.im/',
         'thumbnailRemote':'',
@@ -169,6 +184,7 @@ export const Data = [
     {
         'id':25,
         'title':'Немного бесплатности',
+        'hideTitle': false,
         'description':'',
         'url':'http://www.graphicsfuel.com/',
         'thumbnailRemote':'',
@@ -180,6 +196,7 @@ export const Data = [
     {
         'id':26,
         'title':'1000 Free Mockup',
+        'hideTitle': false,
         'description':'',
         'url':'http://www.cssauthor.com/free-mockup-templates-psd-designs/',
         'thumbnailRemote':'',
@@ -191,6 +208,7 @@ export const Data = [
     {
         'id':27,
         'title':'Текстуры',
+        'hideTitle': false,
         'description':'',
         'url':'http://subtlepatterns.com/',
         'thumbnailRemote':'',
@@ -202,6 +220,7 @@ export const Data = [
     {
         'id':28,
         'title':'online convert',
+        'hideTitle': false,
         'description':'',
         'url':'http://image.online-convert.com/ru/convert-to-ico',
         'thumbnailRemote':'',
@@ -213,6 +232,7 @@ export const Data = [
     {
         'id':29,
         'title':'Бесплатные фото',
+        'hideTitle': false,
         'description':'',
         'url':'https://pixabay.com/',
         'thumbnailRemote':'',
@@ -224,6 +244,7 @@ export const Data = [
     {
         'id':30,
         'title':'Цветовые палитры',
+        'hideTitle': false,
         'description':'',
         'url':'http://colorhunt.co/',
         'thumbnailRemote':'',
@@ -235,6 +256,7 @@ export const Data = [
     {
         'id':31,
         'title':'Codepen.io',
+        'hideTitle': false,
         'description':'',
         'url':'http://codepen.io/',
         'thumbnailRemote':'',
@@ -246,6 +268,7 @@ export const Data = [
     {
         'id':33,
         'title':'Бесплатные заготовки',
+        'hideTitle': false,
         'description':'',
         'url':'http://freebiesbug.com/',
         'thumbnailRemote':'',
@@ -257,6 +280,7 @@ export const Data = [
     {
         'id':34,
         'title':'Flat иконки',
+        'hideTitle': false,
         'description':'',
         'url':'http://www.flaticon.com/',
         'thumbnailRemote':'',
@@ -268,6 +292,7 @@ export const Data = [
     {
         'id':35,
         'title':'Лица для разного',
+        'hideTitle': false,
         'description':'',
         'url':'http://uifaces.com/',
         'thumbnailRemote':'',
@@ -279,6 +304,7 @@ export const Data = [
     {
         'id':37,
         'title':'Коллекция бесплатных ресурсов ',
+        'hideTitle': false,
         'description':'',
         'url':'https://www.designermill.com/',
         'thumbnailRemote':'',
@@ -290,6 +316,7 @@ export const Data = [
     {
         'id':38,
         'title':'Градиенты',
+        'hideTitle': false,
         'description':'',
         'url':'https://webgradients.com/',
         'thumbnailRemote':'',
@@ -301,6 +328,7 @@ export const Data = [
     {
         'id':39,
         'title':'формы',
+        'hideTitle': false,
         'description':'',
         'url':'http://freefrontend.com/css-forms/',
         'thumbnailRemote':'',
@@ -312,6 +340,7 @@ export const Data = [
     {
         'id':40,
         'title':'Кросбраузерность',
+        'hideTitle': false,
         'description':'',
         'url':'http://browsershots.org/',
         'thumbnailRemote':'',
@@ -323,6 +352,7 @@ export const Data = [
     {
         'id':42,
         'title':'Варезные шаблоны хтмл',
+        'hideTitle': false,
         'description':'',
         'url':'https://themeking.ru/html/',
         'thumbnailRemote':'',
@@ -334,6 +364,7 @@ export const Data = [
     {
         'id':45,
         'title':'Fontstorage - бесплатные шрифты',
+        'hideTitle': false,
         'description':'',
         'url':'https://fontstorage.com/',
         'thumbnailRemote':false,
@@ -345,6 +376,7 @@ export const Data = [
     {
         'id':47,
         'title':'Github',
+        'hideTitle': false,
         'description':'',
         'url':'https://github.com',
         'thumbnailRemote':'http://i.imgur.com/Fk5t9Om.png',
@@ -356,6 +388,7 @@ export const Data = [
     {
         'id':48,
         'title':'Behance',
+        'hideTitle': false,
         'description':'',
         'url':'https://www.behance.net',
         'thumbnailRemote':'http://i.imgur.com/MepOg7h.png',
@@ -367,6 +400,7 @@ export const Data = [
     {
         'id':49,
         'title':'500px',
+        'hideTitle': false,
         'description':'',
         'url':'https://500px.com',
         'thumbnailRemote':'http://i.imgur.com/1p6HXJ6.png',
@@ -378,6 +412,7 @@ export const Data = [
     {
         'id':50,
         'title':'Flickr',
+        'hideTitle': false,
         'description':'',
         'url':'http://www.flickr.com',
         'thumbnailRemote':'http://farm6.static.flickr.com/5066/5613127018_e8b8002261_o.png',
@@ -389,6 +424,7 @@ export const Data = [
     {
         'id':53,
         'title':'Html5up',
+        'hideTitle': false,
         'description':'',
         'url':'https://html5up.net/',
         'thumbnailRemote':false,
@@ -400,6 +436,7 @@ export const Data = [
     {
         'id':54,
         'title':'Templated.co',
+        'hideTitle': false,
         'description':'',
         'url':'https://templated.co/',
         'thumbnailRemote':false,
@@ -411,6 +448,7 @@ export const Data = [
     {
         'id':55,
         'title':'Kraken.io web-interface',
+        'hideTitle': false,
         'description':'',
         'url':'https://kraken.io/web-interface',
         'thumbnailRemote':false,
@@ -422,6 +460,7 @@ export const Data = [
     {
         'id':56,
         'title':'Freebbble',
+        'hideTitle': false,
         'description':'',
         'url':'http://freebbble.com/',
         'thumbnailRemote':false,
@@ -433,6 +472,7 @@ export const Data = [
     {
         'id':57,
         'title':'Pixelbuddha',
+        'hideTitle': false,
         'description':'',
         'url':'https://pixelbuddha.net/',
         'thumbnailRemote':false,
@@ -444,6 +484,7 @@ export const Data = [
     {
         'id':58,
         'title':'Premiumpixels',
+        'hideTitle': false,
         'description':'',
         'url':'http://www.premiumpixels.com/',
         'thumbnailRemote':'',
@@ -455,6 +496,7 @@ export const Data = [
     {
         'id':60,
         'title':'Freebiesbug',
+        'hideTitle': false,
         'description':'',
         'url':'https://freebiesbug.com/',
         'thumbnailRemote':false,
@@ -466,6 +508,7 @@ export const Data = [
     {
         'id':61,
         'title':'Techandall',
+        'hideTitle': false,
         'description':'',
         'url':'http://techandall.com/',
         'thumbnailRemote':false,
@@ -477,6 +520,7 @@ export const Data = [
     {
         'id':62,
         'title':'Fltdsgn',
+        'hideTitle': false,
         'description':'',
         'url':'http://www.fltdsgn.com/',
         'thumbnailRemote':false,
@@ -488,6 +532,7 @@ export const Data = [
     {
         'id':63,
         'title':'Siteinspire',
+        'hideTitle': false,
         'description':'',
         'url':'http://www.siteinspire.com/',
         'thumbnailRemote':false,
@@ -499,6 +544,7 @@ export const Data = [
     {
         'id':64,
         'title':'Ui-cloud',
+        'hideTitle': false,
         'description':'',
         'url':'http://ui-cloud.com/',
         'thumbnailRemote':false,
@@ -510,6 +556,7 @@ export const Data = [
     {
         'id':66,
         'title':'Tropical House',
+        'hideTitle': false,
         'description':'',
         'url':'http://promodj.com/mixes/tropical_house',
         'thumbnailRemote':'http://lookw.ru/1/113/1380311685-tropiki----42.jpg',
@@ -521,6 +568,7 @@ export const Data = [
     {
         'id':83,
         'title':'Shopdiz.biz',
+        'hideTitle': false,
         'description':'',
         'url':'https://shopdiz.biz/',
         'thumbnailRemote':false,
@@ -532,6 +580,7 @@ export const Data = [
     {
         'id':84,
         'title':'Codyhouse.co',
+        'hideTitle': false,
         'description':'',
         'url':'https://codyhouse.co/',
         'thumbnailRemote':false,
@@ -543,6 +592,7 @@ export const Data = [
     {
         'id':85,
         'title':'Icons8',
+        'hideTitle': false,
         'description':'',
         'url':'https://icons8.ru/',
         'thumbnailRemote':false,
@@ -554,6 +604,7 @@ export const Data = [
     {
         'id':86,
         'title':'Depositphotos',
+        'hideTitle': false,
         'description':'',
         'url':'https://ru.depositphotos.com/image.html',
         'thumbnailRemote':false,
@@ -565,6 +616,7 @@ export const Data = [
     {
         'id':87,
         'title':'Creativemarket',
+        'hideTitle': false,
         'description':'',
         'url':'https://creativemarket.com/free-goods',
         'thumbnailRemote':false,
@@ -576,6 +628,7 @@ export const Data = [
     {
         'id':89,
         'title':'Shopdiz.pro',
+        'hideTitle': false,
         'description':'',
         'url':'https://shopdiz.pro/user/login',
         'thumbnailRemote':'',
@@ -587,6 +640,7 @@ export const Data = [
     {
         'id':90,
         'title':'Devitems',
+        'hideTitle': false,
         'description':'',
         'url':'https://devitems.com/',
         'thumbnailRemote':false,
@@ -598,6 +652,7 @@ export const Data = [
     {
         'id':91,
         'title':'Flatinspire',
+        'hideTitle': false,
         'description':'',
         'url':'http://flatinspire.com/',
         'thumbnailRemote':false,
@@ -609,6 +664,7 @@ export const Data = [
     {
         'id':92,
         'title':'Awwwards',
+        'hideTitle': false,
         'description':'',
         'url':'https://www.awwwards.com/',
         'thumbnailRemote':false,
@@ -620,6 +676,7 @@ export const Data = [
     {
         'id':93,
         'title':'Webdesign-inspiration',
+        'hideTitle': false,
         'description':'',
         'url':'http://www.webdesign-inspiration.com/',
         'thumbnailRemote':false,
@@ -631,6 +688,7 @@ export const Data = [
     {
         'id':94,
         'title':'Thebestdesigns',
+        'hideTitle': false,
         'description':'',
         'url':'https://www.thebestdesigns.com/',
         'thumbnailRemote':false,
@@ -642,6 +700,7 @@ export const Data = [
     {
         'id':96,
         'title':'Onepagelove',
+        'hideTitle': false,
         'description':'',
         'url':'https://onepagelove.com/',
         'thumbnailRemote':false,
@@ -653,6 +712,7 @@ export const Data = [
     {
         'id':97,
         'title':'Designerspics',
+        'hideTitle': false,
         'description':'',
         'url':'http://www.designerspics.com/',
         'thumbnailRemote':'',
@@ -664,6 +724,7 @@ export const Data = [
     {
         'id':102,
         'title':'Psdrepo',
+        'hideTitle': false,
         'description':'',
         'url':'https://psdrepo.com/',
         'thumbnailRemote':false,
@@ -675,6 +736,7 @@ export const Data = [
     {
         'id':107,
         'title':'Хостинг клиентов',
+        'hideTitle': false,
         'description':'',
         'url':'https://docs.google.com/spreadsheets/d/1VbF_tHS_QBJvR62SyZoLsA5sLTg0d6Fzfr_EmEveLYA/edit?ouid=105051942412138232441&usp=sheets_home&ths=true',
         'thumbnailRemote':false,
@@ -686,6 +748,7 @@ export const Data = [
     {
         'id':108,
         'title':'Upwork',
+        'hideTitle': false,
         'description':'',
         'url':'http://www.upwork.com',
         'thumbnailRemote':false,
@@ -697,6 +760,7 @@ export const Data = [
     {
         'id':109,
         'title':'Truelancer',
+        'hideTitle': false,
         'description':'',
         'url':'https://www.truelancer.com/',
         'thumbnailRemote':false,
@@ -708,6 +772,7 @@ export const Data = [
     {
         'id':110,
         'title':'Freelancer',
+        'hideTitle': false,
         'description':'',
         'url':'https://www.freelancer.com/',
         'thumbnailRemote':false,
@@ -719,6 +784,7 @@ export const Data = [
     {
         'id':111,
         'title':'Bypeople',
+        'hideTitle': false,
         'description':'',
         'url':'https://www.bypeople.com/',
         'thumbnailRemote':false,
@@ -730,6 +796,7 @@ export const Data = [
     {
         'id':112,
         'title':'Psd-html-css.ru (FREE PSD)',
+        'hideTitle': false,
         'description':'',
         'url':'http://psd-html-css.ru/',
         'thumbnailRemote':'',
@@ -741,6 +808,7 @@ export const Data = [
     {
         'id':115,
         'title':'Sitechecker',
+        'hideTitle': false,
         'description':'',
         'url':'https://sitechecker.pro/',
         'thumbnailRemote':false,
@@ -752,6 +820,7 @@ export const Data = [
     {
         'id':116,
         'title':'Glassdoor',
+        'hideTitle': false,
         'description':'',
         'url':'https://www.glassdoor.com/index.htm',
         'thumbnailRemote':false,
@@ -763,6 +832,7 @@ export const Data = [
     {
         'id':117,
         'title':'Infoempleo',
+        'hideTitle': false,
         'description':'',
         'url':'https://www.infoempleo.com/',
         'thumbnailRemote':false,
@@ -774,6 +844,7 @@ export const Data = [
     {
         'id':118,
         'title':'indeed.com',
+        'hideTitle': false,
         'description':'',
         'url':'https://ru.indeed.com/?r=us',
         'thumbnailRemote':'',
@@ -785,6 +856,7 @@ export const Data = [
     {
         'id':119,
         'title':'Hd.kinopoisk.ru',
+        'hideTitle': false,
         'description':'',
         'url':'https://hd.kinopoisk.ru/',
         'thumbnailRemote':false,
@@ -796,6 +868,7 @@ export const Data = [
     {
         'id':121,
         'title':'Galior-market.ru',
+        'hideTitle': false,
         'description':'',
         'url':'https://galior-market.ru/',
         'thumbnailRemote':false,
@@ -807,6 +880,7 @@ export const Data = [
     {
         'id':126,
         'title':'Clients ISPmananager IHC',
+        'hideTitle': false,
         'description':'',
         'url':'https://p557245.ispmgr.ihc.ru:1500/ispmgr',
         'thumbnailRemote':'https://i.imgur.com/LhV5WS3.png',
@@ -818,6 +892,7 @@ export const Data = [
     {
         'id':127,
         'title':'Доступы к ISPmanager clients',
+        'hideTitle': false,
         'description':'',
         'url':'https://docs.google.com/spreadsheets/d/1JwntFolIwyGfVQmIGCqlQ8I75oY0PcHXaoPZ3csHI7w/edit#gid=0',
         'thumbnailRemote':false,
@@ -829,6 +904,7 @@ export const Data = [
     {
         'id':128,
         'title':'Shambala map',
+        'hideTitle': false,
         'description':'',
         'url':'http://77.223.104.123:8166/index.html',
         'thumbnailRemote':'',
@@ -840,6 +916,7 @@ export const Data = [
     {
         'id':129,
         'title':'Цветовые схемы 2',
+        'hideTitle': false,
         'description':'',
         'url':'https://coolors.co',
         'thumbnailRemote':false,
@@ -851,6 +928,7 @@ export const Data = [
     {
         'id':130,
         'title':'Flaticon',
+        'hideTitle': false,
         'description':'',
         'url':'https://www.flaticon.com/',
         'thumbnailRemote':false,
@@ -862,6 +940,7 @@ export const Data = [
     {
         'id':132,
         'title':'Symu.co freebies/',
+        'hideTitle': false,
         'description':'',
         'url':'https://symu.co/freebies/',
         'thumbnailRemote':false,
@@ -873,6 +952,7 @@ export const Data = [
     {
         'id':133,
         'title':'Grabcraft',
+        'hideTitle': false,
         'description':'',
         'url':'https://www.grabcraft.com/',
         'thumbnailRemote':'',
@@ -884,6 +964,7 @@ export const Data = [
     {
         'id':134,
         'title':'Ihc.ru',
+        'hideTitle': false,
         'description':'',
         'url':'https://my.ihc.ru/',
         'thumbnailRemote':false,
@@ -895,6 +976,7 @@ export const Data = [
     {
         'id':136,
         'title':'Server Onuchin Tables',
+        'hideTitle': false,
         'description':'',
         'url':'https://docs.google.com/spreadsheets/d/1eLHwSrFH359a0QcW04bOGsIzJCFllK2kPzpJsg93pkA/edit#gid=0',
         'thumbnailRemote':'https://i.imgur.com/aFpPHTp.png',
@@ -906,6 +988,7 @@ export const Data = [
     {
         'id':137,
         'title':'Convertio.co',
+        'hideTitle': false,
         'description':'',
         'url':'https://convertio.co/',
         'thumbnailRemote':false,
@@ -917,6 +1000,7 @@ export const Data = [
     {
         'id':138,
         'title':'Spotify',
+        'hideTitle': false,
         'description':'',
         'url':'https://www.spotify.com/ru-ru/',
         'thumbnailRemote':false,
@@ -928,6 +1012,7 @@ export const Data = [
     {
         'id':139,
         'title':'Pages.ooo',
+        'hideTitle': false,
         'description':'',
         'url':'https://www.pages.ooo/',
         'thumbnailRemote':false,
@@ -939,6 +1024,7 @@ export const Data = [
     {
         'id':141,
         'title':'Material-components.github.io material-components-web-catalog/#/component/elevation',
+        'hideTitle': false,
         'description':'',
         'url':'https://material-components.github.io/material-components-web-catalog/#/component/elevation',
         'thumbnailRemote':'https://i.imgur.com/qi4VY6u.png',
@@ -950,6 +1036,7 @@ export const Data = [
     {
         'id':142,
         'title':'Bensound royalty-free-music/cinematic',
+        'hideTitle': false,
         'description':'',
         'url':'https://www.bensound.com/royalty-free-music/cinematic',
         'thumbnailRemote':false,
@@ -961,6 +1048,7 @@ export const Data = [
     {
         'id':143,
         'title':'Mixkit.co',
+        'hideTitle': false,
         'description':'',
         'url':'https://mixkit.co/',
         'thumbnailRemote':false,
@@ -972,6 +1060,7 @@ export const Data = [
     {
         'id':144,
         'title':'Licensing.jamendo ru/royalty-free-music?jmm=catalog',
+        'hideTitle': false,
         'description':'',
         'url':'https://licensing.jamendo.com/ru/royalty-free-music?jmm=catalog',
         'thumbnailRemote':false,
@@ -983,6 +1072,7 @@ export const Data = [
     {
         'id':145,
         'title':'Epidemicsound music/featured/',
+        'hideTitle': false,
         'description':'',
         'url':'https://www.epidemicsound.com/music/featured/',
         'thumbnailRemote':false,
@@ -994,6 +1084,7 @@ export const Data = [
     {
         'id':148,
         'title':'Radiorecord.ru',
+        'hideTitle': false,
         'description':'',
         'url':'http://www.radiorecord.ru/',
         'thumbnailRemote':false,
@@ -1005,6 +1096,7 @@ export const Data = [
     {
         'id':149,
         'title':'Real Favicon Generator',
+        'hideTitle': false,
         'description':'',
         'url':'https://realfavicongenerator.net/',
         'thumbnailRemote':false,
@@ -1016,6 +1108,7 @@ export const Data = [
     {
         'id':151,
         'title':'Material-ui ru/',
+        'hideTitle': false,
         'description':'',
         'url':'https://material-ui.com/ru/',
         'thumbnailRemote':false,
@@ -1027,6 +1120,7 @@ export const Data = [
     {
         'id':152,
         'title':'Fiverr',
+        'hideTitle': false,
         'description':'',
         'url':'https://www.fiverr.com/users/onuchin_artemy/seller_dashboard',
         'thumbnailRemote':false,
@@ -1038,6 +1132,7 @@ export const Data = [
     {
         'id':154,
         'title':'Onuchin',
+        'hideTitle': false,
         'description':'',
         'url':'http://onuchin.com',
         'thumbnailRemote':'',
@@ -1049,6 +1144,7 @@ export const Data = [
     {
         'id':155,
         'title':'Bitrix development',
+        'hideTitle': false,
         'description':'',
         'url':'http://bitrix-development.ru',
         'thumbnailRemote':'',
@@ -1060,6 +1156,7 @@ export const Data = [
     {
         'id':156,
         'title':'JoSite',
+        'hideTitle': false,
         'description':'',
         'url':'http://josite.ru',
         'thumbnailRemote':'',
@@ -1071,6 +1168,7 @@ export const Data = [
     {
         'id':157,
         'title':'JoVino',
+        'hideTitle': false,
         'description':'',
         'url':'http://jovino.club',
         'thumbnailRemote':'',
@@ -1082,6 +1180,7 @@ export const Data = [
     {
         'id':158,
         'title':'Linguamaris',
+        'hideTitle': false,
         'description':'',
         'url':'http://linguamaris.com',
         'thumbnailRemote':'',
@@ -1093,6 +1192,7 @@ export const Data = [
     {
         'id':159,
         'title':'Watched Movies',
+        'hideTitle': false,
         'description':'',
         'url':'http://watchedmovies.club',
         'thumbnailRemote':'',
@@ -1104,6 +1204,7 @@ export const Data = [
     {
         'id':161,
         'title':'Egegesh',
+        'hideTitle': false,
         'description':'',
         'url':'https://egegesh.ru/',
         'thumbnailRemote':'',
@@ -1115,6 +1216,7 @@ export const Data = [
     {
         'id':162,
         'title':'ArtVision',
+        'hideTitle': false,
         'description':'',
         'url':'http://artvision54.ru/',
         'thumbnailRemote':'',
@@ -1126,6 +1228,7 @@ export const Data = [
     {
         'id':163,
         'title':'Adv 54',
+        'hideTitle': false,
         'description':'',
         'url':'http://adv54.ru',
         'thumbnailRemote':false,
@@ -1137,6 +1240,7 @@ export const Data = [
     {
         'id':165,
         'title':'Transfonter',
+        'hideTitle': false,
         'description':'',
         'url':'https://transfonter.org/',
         'thumbnailRemote':false,
@@ -1148,6 +1252,7 @@ export const Data = [
     {
         'id':166,
         'title':'Stackblitz',
+        'hideTitle': false,
         'description':'',
         'url':'https://stackblitz.com/',
         'thumbnailRemote':false,
@@ -1159,6 +1264,7 @@ export const Data = [
     {
         'id':168,
         'title':'Studiohd',
+        'hideTitle': false,
         'description':'',
         'url':'http://studiohd.org/',
         'thumbnailRemote':false,
@@ -1170,6 +1276,7 @@ export const Data = [
     {
         'id':169,
         'title':'Doka.guide',
+        'hideTitle': false,
         'description':'',
         'url':'https://doka.guide/',
         'thumbnailRemote':false,
@@ -1181,6 +1288,7 @@ export const Data = [
     {
         'id':170,
         'title':'Epidemicsound',
+        'hideTitle': false,
         'description':'',
         'url':'https://www.epidemicsound.com/',
         'thumbnailRemote':'',
@@ -1192,6 +1300,7 @@ export const Data = [
     {
         'id':171,
         'title':'Youtube',
+        'hideTitle': false,
         'description':'',
         'url':'http://www.youtube.com',
         'thumbnailRemote':false,
@@ -1203,6 +1312,7 @@ export const Data = [
     {
         'id':175,
         'title':'Google Calendar',
+        'hideTitle': false,
         'description':'',
         'url':'https://www.google.com/calendar',
         'thumbnailRemote':'https://i.imgur.com/I5A9HUI.png',
@@ -1214,6 +1324,7 @@ export const Data = [
     {
         'id':176,
         'title':'Google Drive',
+        'hideTitle': false,
         'description':'',
         'url':'https://drive.google.com',
         'thumbnailRemote':'https://i.imgur.com/fOnIbPu.png',
@@ -1225,6 +1336,7 @@ export const Data = [
     {
         'id':177,
         'title':'Google Docs',
+        'hideTitle': false,
         'description':'',
         'url':'https://docs.google.com',
         'thumbnailRemote':'https://i.imgur.com/csdt6kb.png',
@@ -1236,6 +1348,7 @@ export const Data = [
     {
         'id':178,
         'title':'Google Sheets',
+        'hideTitle': false,
         'description':'',
         'url':'https://sheets.google.com',
         'thumbnailRemote':'https://i.imgur.com/5Gub2kR.png',
@@ -1247,6 +1360,7 @@ export const Data = [
     {
         'id':180,
         'title':'Pinterest',
+        'hideTitle': false,
         'description':'',
         'url':'https://pinterest.com',
         'thumbnailRemote':false,
@@ -1258,6 +1372,7 @@ export const Data = [
     {
         'id':181,
         'title':'Linked In',
+        'hideTitle': false,
         'description':'',
         'url':'http://www.linkedin.com',
         'thumbnailRemote':false,
@@ -1269,6 +1384,7 @@ export const Data = [
     {
         'id':182,
         'title':'Asana',
+        'hideTitle': false,
         'description':'',
         'url':'https://app.asana.com',
         'thumbnailRemote':false,
@@ -1280,6 +1396,7 @@ export const Data = [
     {
         'id':184,
         'title':'Interactive Brokers',
+        'hideTitle': false,
         'description':'',
         'url':'https://www.interactivebrokers.co.uk/ru/home.php',
         'thumbnailRemote':'',
@@ -1291,6 +1408,7 @@ export const Data = [
     {
         'id':185,
         'title':'Nasdaq',
+        'hideTitle': false,
         'description':'',
         'url':'https://www.nasdaq.com/',
         'thumbnailRemote':'https://i.imgur.com/I1XA7uF.png',
@@ -1302,6 +1420,7 @@ export const Data = [
     {
         'id':186,
         'title':'Gitlab ',
+        'hideTitle': false,
         'description':'',
         'url':'https://gitlab.com/',
         'thumbnailRemote':'https://download.logo.wine/logo/GitLab/GitLab-Logo.wine.png',
@@ -1313,10 +1432,11 @@ export const Data = [
     {
         'id':187,
         'title':'Netflix',
+        'hideTitle': true,
         'description':'',
         'url':'https://netflix.com',
         'thumbnailRemote':false,
-        'thumbnail':false,
+        'thumbnail':'netflix.jpg',
         'icon':false,
         'position':27,
         'idgroup':0
@@ -1324,6 +1444,7 @@ export const Data = [
     {
         'id':189,
         'title':'Frontendmentor.io challenges',
+        'hideTitle': false,
         'description':'',
         'url':'https://www.frontendmentor.io/challenges',
         'thumbnailRemote':'',
@@ -1335,6 +1456,7 @@ export const Data = [
     {
         'id':190,
         'title':'Hetzner',
+        'hideTitle': false,
         'description':'',
         'url':'https://console.hetzner.cloud/projects',
         'thumbnailRemote':'',
@@ -1346,6 +1468,7 @@ export const Data = [
     {
         'id':191,
         'title':'Kodji.ru ',
+        'hideTitle': false,
         'description':'',
         'url':'https://kodji.ru/',
         'thumbnailRemote':'',
@@ -1357,6 +1480,7 @@ export const Data = [
     {
         'id':192,
         'title':'Google Photos',
+        'hideTitle': false,
         'description':'',
         'url':'https://photos.google.com',
         'thumbnailRemote':'https://i.imgur.com/ktYBEbY.png',
@@ -1371,52 +1495,62 @@ export const Groups = [
     {
         'id':0,
         'title':'Entertainment',
+        'description':'Lorem ipsum, dolor sit amet consectetur adipisicing elit.',
         'position':0
     },
 
     {
         'id':11,
         'title':'My websites',
+        'description':'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis omnis natus similique dolorum minus amet nam!',
         'position':11
     },
     {
         'id':1,
         'title':'Work',
+        'description':'Lorem ipsum! Atque voluptas dolor rem assumenda voluptatem accusamus quae iste? Porro quae modi expedita dolorum.',
         'position':3
     },
     {
         'id':2,
         'title':'WebDevelopment',
+        'description':'Lorem ipsum, dolor sit amet voluptatem accusamus quae iste? Porro quae modi expedita dolorum.',
         'position':4
     },
     {
         'id':9,
         'title':'Freelance',
+        'description':'Lorem ipsum, dolor sit amet consectetur adipisicing elit? Porro quae modi expedita dolorum.',
         'position':5
     },
     {
         'id':5,
         'title':'Designs shop',
+        'description':'Atque voluptas dolor rem assumenda voluptatem accusamus quae iste? Porro quae modi expedita dolorum.',
         'position':6
     },
     {
         'id':4,
         'title':'Free stuff',
+        'description':'Lorem ipsum, dolor sit amet consectetur adipisicing elit.',
         'position':7
     },
     {
         'id':6,
         'title':'SEO',
+        'description':'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis omnis natus similique dolorum minus amet nam! Atque voluptas dolor rem assumenda voluptatem accusamus quae iste? Porro quae modi expedita dolorum.',
         'position':8
     },
     {
         'id':10,
         'title':'Hosting',
+        'description':'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis omnis natus similique? Porro quae modi expedita dolorum.',
         'position':10
     },
     {
         'id':3,
         'title':'Design',
+        'description':'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt unde expedita incidunt debitis recusandae molestiae eos consequatur consectetur? Aliquid consequatur minus atque corrupti cupiditate itaque nemo consectetur laborum animi. Cumque debitis voluptas, odit nesciunt sequi eveniet ullam iure quod tempore maxime labore dolorem laborum, quam ut delectus repellat, iste culpa iusto repudiandae! Doloremque non, deserunt obcaecati sed autem quam. Cupiditate natus odio ad? Inventore recusandae et ratione animi alias, fuga ipsum iusto eius officiis in enim quasi! Molestiae ut possimus id beatae libero incidunt nulla fugiat architecto voluptas, error ipsum ducimus nemo at, tenetur cumque impedit laudantium voluptatum quas asperiores eligendi officia. Quam, earum nostrum, fuga, explicabo repellat hic totam quo eum eligendi deserunt fugiat voluptatibus at dolorum! Illo, debitis eos. Molestiae, animi.',
         'position':2
     }
 ]
