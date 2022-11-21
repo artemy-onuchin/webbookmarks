@@ -22,8 +22,6 @@ function App() {
         localStorage.setItem('group', activeGroupId)
     }, [activeGroupId]);
 
-    console.log('activeGroupId: ' + activeGroupId);
-
     return (
         <div className="wrapper">
             <Header menuStatus={menuStatus} onClickBurger={() => setMenuStatus(!menuStatus)}/>

@@ -1,22 +1,22 @@
 .header {
   display: flex;
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 99;
   align-items: center;
   justify-content: space-between;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 99;
   height: 50px;
-  padding: 0 8px;
+  padding: 0 $size;
   background: $dev-color-300;
 
   @include bp540 {
-    padding: 0 16px;
+    padding: 0 $size * 2;
   }
 
   @include bp1440 {
-    padding: 0 32px;
+    padding: 0 $size * 4;
   }
 }
 
@@ -39,7 +39,7 @@
 
   @include bp768 {
     display: grid;
-    grid-gap: 8px;
+    grid-gap: $size;
     grid-template-columns: repeat(2, 1fr);
   }
 }
@@ -51,10 +51,10 @@
 
 .burger {
   display: flex;
-  position: relative;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  position: relative;
   width: 28px;
   height: 28px;
   transition: $transition ease-in-out;

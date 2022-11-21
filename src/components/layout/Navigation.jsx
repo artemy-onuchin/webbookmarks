@@ -4,8 +4,6 @@ import { Groups } from '../../data/data';
 
 export default function Navigation({open, onClickTabs, activeTab}) {
 
-    console.log('activeTab: ' + activeTab);
-
     let tabs = Groups.map((item) => {
         return(
             <span

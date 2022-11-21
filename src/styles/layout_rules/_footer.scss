@@ -2,10 +2,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 10px;
+  padding: $size;
   background-color: $dev-color-800;
 
   @include bp540 {
-    padding: 16px;
+    padding: $size * 2;
   }
 }
