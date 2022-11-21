@@ -67,8 +67,8 @@ export const Data = [
         'hideTitle': false,
         'description':'',
         'url':'https://bitbucket.org/dashboard/repositories',
-        'thumbnailRemote':'https://wac-cdn.atlassian.com/dam/jcr:e2a6f06f-b3d5-4002-aed3-73539c56a2eb/bitbucket_rgb_blue.png',
-        'thumbnail':false,
+        'thumbnailRemote':false,
+        'thumbnail':'bitbucket.png',
         'icon':false,
         'position':0,
         'idgroup':1
@@ -92,7 +92,7 @@ export const Data = [
         'description':'',
         'url':'https://unsplash.com/',
         'thumbnailRemote':false,
-        'thumbnail':false,
+        'thumbnail':'unsplash.jpeg',
         'icon':false,
         'position':999,
         'idgroup':4
@@ -379,9 +379,9 @@ export const Data = [
         'hideTitle': false,
         'description':'',
         'url':'https://github.com',
-        'thumbnailRemote':'http://i.imgur.com/Fk5t9Om.png',
+        'thumbnailRemote':false,
         'thumbnail':false,
-        'icon':false,
+        'icon':'github',
         'position':1,
         'idgroup':1
     },
@@ -734,25 +734,13 @@ export const Data = [
         'idgroup':4
     },
     {
-        'id':107,
-        'title':'Хостинг клиентов',
-        'hideTitle': false,
-        'description':'',
-        'url':'https://docs.google.com/spreadsheets/d/1VbF_tHS_QBJvR62SyZoLsA5sLTg0d6Fzfr_EmEveLYA/edit?ouid=105051942412138232441&usp=sheets_home&ths=true',
-        'thumbnailRemote':false,
-        'thumbnail':false,
-        'icon':false,
-        'position':6,
-        'idgroup':10
-    },
-    {
         'id':108,
         'title':'Upwork',
         'hideTitle': false,
         'description':'',
         'url':'http://www.upwork.com',
         'thumbnailRemote':false,
-        'thumbnail':false,
+        'thumbnail':'upwork.webp',
         'icon':false,
         'position':999,
         'idgroup':9
@@ -855,7 +843,7 @@ export const Data = [
     },
     {
         'id':119,
-        'title':'Hd.kinopoisk.ru',
+        'title':'Kinopoisk',
         'hideTitle': false,
         'description':'',
         'url':'https://hd.kinopoisk.ru/',
@@ -876,30 +864,6 @@ export const Data = [
         'icon':false,
         'position':999,
         'idgroup':5
-    },
-    {
-        'id':126,
-        'title':'Clients ISPmananager IHC',
-        'hideTitle': false,
-        'description':'',
-        'url':'https://p557245.ispmgr.ihc.ru:1500/ispmgr',
-        'thumbnailRemote':'https://i.imgur.com/LhV5WS3.png',
-        'thumbnail':false,
-        'icon':false,
-        'position':4,
-        'idgroup':10
-    },
-    {
-        'id':127,
-        'title':'Доступы к ISPmanager clients',
-        'hideTitle': false,
-        'description':'',
-        'url':'https://docs.google.com/spreadsheets/d/1JwntFolIwyGfVQmIGCqlQ8I75oY0PcHXaoPZ3csHI7w/edit#gid=0',
-        'thumbnailRemote':false,
-        'thumbnail':false,
-        'icon':false,
-        'position':5,
-        'idgroup':10
     },
     {
         'id':128,
@@ -960,30 +924,6 @@ export const Data = [
         'icon':false,
         'position':8,
         'idgroup':0
-    },
-    {
-        'id':134,
-        'title':'Ihc.ru',
-        'hideTitle': false,
-        'description':'',
-        'url':'https://my.ihc.ru/',
-        'thumbnailRemote':false,
-        'thumbnail':false,
-        'icon':false,
-        'position':0,
-        'idgroup':10
-    },
-    {
-        'id':136,
-        'title':'Server Onuchin Tables',
-        'hideTitle': false,
-        'description':'',
-        'url':'https://docs.google.com/spreadsheets/d/1eLHwSrFH359a0QcW04bOGsIzJCFllK2kPzpJsg93pkA/edit#gid=0',
-        'thumbnailRemote':'https://i.imgur.com/aFpPHTp.png',
-        'thumbnail':false,
-        'icon':false,
-        'position':3,
-        'idgroup':10
     },
     {
         'id':137,
@@ -1070,18 +1010,6 @@ export const Data = [
         'idgroup':4
     },
     {
-        'id':145,
-        'title':'Epidemicsound music/featured/',
-        'hideTitle': false,
-        'description':'',
-        'url':'https://www.epidemicsound.com/music/featured/',
-        'thumbnailRemote':false,
-        'thumbnail':false,
-        'icon':false,
-        'position':999,
-        'idgroup':5
-    },
-    {
         'id':148,
         'title':'Radiorecord.ru',
         'hideTitle': false,
@@ -1130,114 +1058,6 @@ export const Data = [
         'idgroup':9
     },
     {
-        'id':154,
-        'title':'Onuchin',
-        'hideTitle': false,
-        'description':'',
-        'url':'http://onuchin.com',
-        'thumbnailRemote':'',
-        'thumbnail':false,
-        'icon':false,
-        'position':999,
-        'idgroup':11
-    },
-    {
-        'id':155,
-        'title':'Bitrix development',
-        'hideTitle': false,
-        'description':'',
-        'url':'http://bitrix-development.ru',
-        'thumbnailRemote':'',
-        'thumbnail':false,
-        'icon':false,
-        'position':999,
-        'idgroup':11
-    },
-    {
-        'id':156,
-        'title':'JoSite',
-        'hideTitle': false,
-        'description':'',
-        'url':'http://josite.ru',
-        'thumbnailRemote':'',
-        'thumbnail':false,
-        'icon':false,
-        'position':999,
-        'idgroup':11
-    },
-    {
-        'id':157,
-        'title':'JoVino',
-        'hideTitle': false,
-        'description':'',
-        'url':'http://jovino.club',
-        'thumbnailRemote':'',
-        'thumbnail':false,
-        'icon':false,
-        'position':999,
-        'idgroup':11
-    },
-    {
-        'id':158,
-        'title':'Linguamaris',
-        'hideTitle': false,
-        'description':'',
-        'url':'http://linguamaris.com',
-        'thumbnailRemote':'',
-        'thumbnail':false,
-        'icon':false,
-        'position':999,
-        'idgroup':11
-    },
-    {
-        'id':159,
-        'title':'Watched Movies',
-        'hideTitle': false,
-        'description':'',
-        'url':'http://watchedmovies.club',
-        'thumbnailRemote':'',
-        'thumbnail':false,
-        'icon':false,
-        'position':999,
-        'idgroup':11
-    },
-    {
-        'id':161,
-        'title':'Egegesh',
-        'hideTitle': false,
-        'description':'',
-        'url':'https://egegesh.ru/',
-        'thumbnailRemote':'',
-        'thumbnail':false,
-        'icon':false,
-        'position':999,
-        'idgroup':11
-    },
-    {
-        'id':162,
-        'title':'ArtVision',
-        'hideTitle': false,
-        'description':'',
-        'url':'http://artvision54.ru/',
-        'thumbnailRemote':'',
-        'thumbnail':false,
-        'icon':false,
-        'position':999,
-        'idgroup':11
-    },
-    {
-        'id':163,
-        'title':'Adv 54',
-        'hideTitle': false,
-        'description':'',
-        'url':'http://adv54.ru',
-        'thumbnailRemote':false,
-        'thumbnail':false,
-        'icon':false,
-        'position':999,
-        'idgroup':11
-    },
-    {
         'id':165,
         'title':'Transfonter',
         'hideTitle': false,
@@ -1256,7 +1076,7 @@ export const Data = [
         'description':'',
         'url':'https://stackblitz.com/',
         'thumbnailRemote':false,
-        'thumbnail':false,
+        'thumbnail':'stackblitz.png',
         'icon':false,
         'position':5,
         'idgroup':1
@@ -1315,9 +1135,9 @@ export const Data = [
         'hideTitle': false,
         'description':'',
         'url':'https://www.google.com/calendar',
-        'thumbnailRemote':'https://i.imgur.com/I5A9HUI.png',
+        'thumbnailRemote':false,
         'thumbnail':false,
-        'icon':false,
+        'icon':'google-calendar',
         'position':17,
         'idgroup':0
     },
@@ -1327,9 +1147,9 @@ export const Data = [
         'hideTitle': false,
         'description':'',
         'url':'https://drive.google.com',
-        'thumbnailRemote':'https://i.imgur.com/fOnIbPu.png',
+        'thumbnailRemote':false,
         'thumbnail':false,
-        'icon':false,
+        'icon':'google-drive',
         'position':18,
         'idgroup':0
     },
@@ -1339,9 +1159,9 @@ export const Data = [
         'hideTitle': false,
         'description':'',
         'url':'https://docs.google.com',
-        'thumbnailRemote':'https://i.imgur.com/csdt6kb.png',
+        'thumbnailRemote':false,
         'thumbnail':false,
-        'icon':false,
+        'icon':'google-docs',
         'position':19,
         'idgroup':0
     },
@@ -1351,9 +1171,9 @@ export const Data = [
         'hideTitle': false,
         'description':'',
         'url':'https://sheets.google.com',
-        'thumbnailRemote':'https://i.imgur.com/5Gub2kR.png',
+        'thumbnailRemote':false,
         'thumbnail':false,
-        'icon':false,
+        'icon':'google-sheets',
         'position':20,
         'idgroup':0
     },
@@ -1365,7 +1185,7 @@ export const Data = [
         'url':'https://pinterest.com',
         'thumbnailRemote':false,
         'thumbnail':false,
-        'icon':false,
+        'icon':'pinterest',
         'position':6,
         'idgroup':0
     },
@@ -1388,7 +1208,7 @@ export const Data = [
         'description':'',
         'url':'https://app.asana.com',
         'thumbnailRemote':false,
-        'thumbnail':false,
+        'thumbnail':'asana.png',
         'icon':false,
         'position':23,
         'idgroup':0
@@ -1454,18 +1274,6 @@ export const Data = [
         'idgroup':2
     },
     {
-        'id':190,
-        'title':'Hetzner',
-        'hideTitle': false,
-        'description':'',
-        'url':'https://console.hetzner.cloud/projects',
-        'thumbnailRemote':'',
-        'thumbnail':false,
-        'icon':false,
-        'position':999,
-        'idgroup':10
-    },
-    {
         'id':191,
         'title':'Kodji.ru ',
         'hideTitle': false,
@@ -1483,9 +1291,9 @@ export const Data = [
         'hideTitle': false,
         'description':'',
         'url':'https://photos.google.com',
-        'thumbnailRemote':'https://i.imgur.com/ktYBEbY.png',
+        'thumbnailRemote':false,
         'thumbnail':false,
-        'icon':false,
+        'icon':'google-photo',
         'position':16,
         'idgroup':0
     }
@@ -1497,13 +1305,6 @@ export const Groups = [
         'title':'Entertainment',
         'description':'Lorem ipsum, dolor sit amet consectetur adipisicing elit.',
         'position':0
-    },
-
-    {
-        'id':11,
-        'title':'My websites',
-        'description':'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis omnis natus similique dolorum minus amet nam!',
-        'position':11
     },
     {
         'id':1,
@@ -1540,12 +1341,6 @@ export const Groups = [
         'title':'SEO',
         'description':'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis omnis natus similique dolorum minus amet nam! Atque voluptas dolor rem assumenda voluptatem accusamus quae iste? Porro quae modi expedita dolorum.',
         'position':8
-    },
-    {
-        'id':10,
-        'title':'Hosting',
-        'description':'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis omnis natus similique? Porro quae modi expedita dolorum.',
-        'position':10
     },
     {
         'id':3,
