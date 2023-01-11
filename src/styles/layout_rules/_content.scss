@@ -1,11 +1,15 @@
 .main {
   flex-grow: 1;
-  padding: 58px $size $size;
   background: #3e424a url("./../../../public/images/backgrounds/altay.jpg") center no-repeat;
   background-size: cover;
+  padding: 58px 8px 120px;
 
   @include bp540 {
-    padding: 114px $size * 2 $size * 4;
+    padding: 114px 16px 160px;
+  }
+
+  @include bp768 {
+    padding: 114px 16px 180px;
   }
 }
 

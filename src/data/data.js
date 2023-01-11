@@ -1349,3 +1349,41 @@ export const Groups = [
         'position':2
     }
 ]
+
+export const FooterLinks = [
+    {
+        'id':1,
+        'title':'Gmail',
+        'url':'https://mail.google.com/mail/u/0/#inbox',
+        'icon':'google-mail-gmail',
+        'position':1,
+    },
+    {
+        'id':2,
+        'title':'Google Photo',
+        'url':'https://photos.google.com/',
+        'icon':'google-photo',
+        'position':2,
+    },
+    {
+        'id':3,
+        'title':'Google Disk',
+        'url':'',
+        'icon':'google-drive',
+        'position':3,
+    },
+    {
+        'id':4,
+        'title':'Google Maps',
+        'url':'',
+        'icon':'google-map',
+        'position':4,
+    },
+    {
+        'id':5,
+        'title':'Google Translate',
+        'url':'',
+        'icon':'google-translate',
+        'position':5,
+    },
+]
