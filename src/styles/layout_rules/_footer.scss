@@ -1,11 +1,14 @@
 .footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
   background-color: $dev-color-800;
 
   &__icons {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 16px;
     padding: 10px;
 
     @include bp540 {
@@ -13,11 +16,16 @@
     }
   }
 
-  &__copyright {
+  &__wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    max-width: 1680px;
+    margin: 0 auto;
     padding: 10px;
+  }
+
+  &__copyright {
     background: $dev-color-900;
     color: $dev-color-600;
 
