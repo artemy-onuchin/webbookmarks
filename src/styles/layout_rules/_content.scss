@@ -1,10 +1,14 @@
 .main {
   flex-grow: 1;
-  padding: 58px 8px 8px;
+  padding: 58px 8px 120px;
   background: $dev-color-500;
 
   @include bp540 {
-    padding: 114px 16px 16px;
+    padding: 114px 16px 160px;
+  }
+
+  @include bp768 {
+    padding: 114px 16px 180px;
   }
 }
 

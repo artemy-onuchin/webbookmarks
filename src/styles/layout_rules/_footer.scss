@@ -1,11 +1,44 @@
 .footer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 10px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
   background-color: $dev-color-800;
 
-  @include bp540 {
-    padding: 16px;
+  &__icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+
+    @include bp540 {
+      padding: 16px;
+    }
+  }
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1680px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+
+  &__copyright {
+    background: $dev-color-900;
+    color: $dev-color-600;
+
+    &-react {
+      font-size: 12px;
+
+      a {
+        color: $dev-color-500;
+      }
+    }
+
+    &-coffee {
+      display: flex;
+    }
   }
 }
