@@ -1,7 +1,7 @@
 .main {
   flex-grow: 1;
   padding: 58px $size $size;
-  background: #3e424a url("./../../../public/images/backgrounds/altay-light.jpg") center no-repeat;
+  background: #3e424a url("./../../../public/images/backgrounds/altay.jpg") center no-repeat;
   background-size: cover;
 
   @include bp540 {
