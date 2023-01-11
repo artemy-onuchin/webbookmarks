@@ -1,7 +1,9 @@
 .main {
   flex-grow: 1;
   padding: 58px 8px 120px;
-  background: $dev-color-500;
+  background: #3e424a url("./../../../public/images/backgrounds/altay.jpg") center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 
   @include bp540 {
     padding: 114px 16px 160px;
@@ -14,23 +16,23 @@
 
 .card__list {
   display: grid;
-  grid-gap: 8px;
+  grid-auto-rows: minmax(max-content, 1fr);
+  grid-gap: $size;
   grid-template-columns: repeat(2, 1fr);
   width: 100%;
   max-width: 1680px;
   margin: 0 auto;
 
   @include bp540 {
-    grid-gap: 16px;
     grid-template-columns: repeat(3, 1fr);
   }
 
   @include bp768 {
-    grid-gap: 16px;
     grid-template-columns: repeat(5, 1fr);
   }
 
   @include bp1024 {
+    grid-gap: $size * 2;
     grid-template-columns: repeat(6, 1fr);
   }
 
@@ -43,9 +45,11 @@
   }
 
   &-name {
+    @include font-style(16px, 140%, 400);
+
     max-width: 1680px;
-    margin: 16px auto 8px;
-    font-size: 24px;
-    line-height: 28px;
+    margin: $size * 3 auto $size * 2;
+    color: $color-white;
+    text-shadow: 1px 1px 1px rgba($color-black, 0.5);
   }
 }
