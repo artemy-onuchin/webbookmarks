@@ -9,21 +9,28 @@
   z-index: 99;
   height: 50px;
   padding: 0 $size;
-  background: $dev-color-300;
+  background: $color-white;
 
   @include bp540 {
-    padding: 0 $size * 2;
+    padding: $size $size * 2 0;
   }
 
   @include bp1440 {
-    padding: 0 $size * 4;
+    padding: $size * 2 $size * 4 0;
   }
 }
 
 .logo {
-  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 160px;
   height: 30px;
-  background-color: $dev-color-500;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 .button {
@@ -60,7 +67,7 @@
   transition: $transition ease-in-out;
   border: none;
   outline: none;
-  background: $dev-color-100;
+  background: transparent;
 
   @include bp768 {
     display: none;
@@ -72,7 +79,7 @@
     width: 28px;
     height: 2px;
     transition: $transition ease-in-out;
-    background: $dev-color-500;
+    background: $dev-color-900;
     content: "";
   }
 
