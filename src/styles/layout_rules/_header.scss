@@ -8,8 +8,20 @@
   right: 0;
   z-index: 99;
   height: 50px;
+  transition: $transition;
   padding: 0 $size;
   background: $color-white;
+
+  &._isShadow {
+    box-shadow:
+      0 3px 1px -2px rgb(0 0 0 / 20%),
+      0 2px 2px 0 rgb(0 0 0 / 14%),
+      0 1px 5px 0 rgb(0 0 0 / 12%);
+
+    @include bp768 {
+      box-shadow: none;
+    }
+  }
 
   @include bp540 {
     padding: $size $size * 2 0;
@@ -24,12 +36,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-grow: 1;
   width: 160px;
   height: 30px;
 
+  @include bp768 {
+    flex-grow: 0;
+  }
+
   img {
-    width: 100%;
-    height: auto;
+    width: auto;
+    height: 24px;
   }
 }
 
@@ -76,10 +93,10 @@
   &::before,
   &::after {
     position: relative;
-    width: 28px;
-    height: 2px;
+    width: 24px;
+    height: 3px;
     transition: $transition ease-in-out;
-    background: $dev-color-900;
+    background: #3b3e42;
     content: "";
   }
 
@@ -95,7 +112,7 @@
     transform: rotate(270deg);
 
     &::before {
-      top: 2px;
+      top: 3px;
       transform: rotate(45deg);
       background: $dev-color-900;
     }

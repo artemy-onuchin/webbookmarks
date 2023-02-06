@@ -25,7 +25,10 @@ function App() {
     return (
         <div className="wrapper">
             <Header menuStatus={menuStatus} onClickBurger={() => setMenuStatus(!menuStatus)}/>
-            <Navigation open={menuStatus} activeTab={activeGroupId} onClickTabs={tab => setActiveGroupId(tab)}/>
+            <Navigation open={menuStatus} activeTab={activeGroupId} onClickTabs={tab => {
+                setActiveGroupId(tab)
+                setMenuStatus(!menuStatus)
+            }}/>
             <Content active={+activeGroupId}/>
             <Footer/>
         </div>

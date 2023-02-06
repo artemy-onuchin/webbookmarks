@@ -24,6 +24,12 @@ const Content = ({active}) => {
         )
     })
 
+    let groupName = Groups.map((item)=>{
+        return(
+            item.id === active && item.title
+        )
+    })
+
     let groupDesc = Groups.map((item)=>{
         return(
             item.id === active && item.description
@@ -33,8 +39,13 @@ const Content = ({active}) => {
     return (
         <main className="main">
             <h1 className="card__list-name">
-                {groupDesc}
+                {groupName}
             </h1>
+
+            <p className="card__list-desc">
+                {groupDesc}
+            </p>
+
             <div className="card__list">
                 {cardList}
             </div>

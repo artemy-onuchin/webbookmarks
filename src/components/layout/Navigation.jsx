@@ -8,7 +8,12 @@ export default function Navigation({open, onClickTabs, activeTab}) {
         return(
             <span
                 key={item.id}
-                onClick={() => onClickTabs(item.id)}
+                onClick={() => {
+                    onClickTabs(item.id);
+                    console.log(item.id);
+                    open = false
+                    console.log(open);
+                }}
                 className={`link${+activeTab === item.id ? ' _active' : ''}`}
                 style={{order: item.position}}
             >
