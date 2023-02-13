@@ -9,10 +9,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px;
+    padding: 8px;
 
     @include bp540 {
-      padding: 16px;
+      padding: 12px;
     }
   }
 

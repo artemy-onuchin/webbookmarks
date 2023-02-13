@@ -7,7 +7,7 @@ import Footer from './components/layout/Footer';
 import { Groups } from './data/data';
 
 function App() {
-    const [menuStatus, setMenuStatus] = useState('');
+    const [menuStatus, setMenuStatus] = useState(false);
     const [activeGroupId, setActiveGroupId] = useState(localStorage.getItem('group') || Groups[0].id)
 
     useEffect(() => {
@@ -27,7 +27,7 @@ function App() {
             <Header menuStatus={menuStatus} onClickBurger={() => setMenuStatus(!menuStatus)}/>
             <Navigation open={menuStatus} activeTab={activeGroupId} onClickTabs={tab => {
                 setActiveGroupId(tab)
-                setMenuStatus(!menuStatus)
+                setMenuStatus(false)
             }}/>
             <Content active={+activeGroupId}/>
             <Footer/>

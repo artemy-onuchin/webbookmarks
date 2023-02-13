@@ -2,20 +2,14 @@
 @import "../vars";
 
 .item {
-  width: 40px;
-  height: 40px;
-  margin-right: 16px;
+  width: 44px;
+  height: 44px;
+  margin-right: 12px;
 
   @include bp540 {
-    width: 60px;
-    height: 60px;
-    margin-right: 24px;
-  }
-
-  @include bp768 {
-    width: 80px;
-    height: 80px;
-    margin-right: 32px;
+    width: 52px;
+    height: 52px;
+    margin-right: 16px;
   }
 
   img {
