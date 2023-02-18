@@ -29,7 +29,7 @@ function App() {
                 setActiveGroupId(tab)
                 setMenuStatus(false)
             }}/>
-            <Content active={+activeGroupId}/>
+            <Content active={+activeGroupId} key={activeGroupId}/>
             <Footer/>
         </div>
     );
