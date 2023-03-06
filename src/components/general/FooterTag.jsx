@@ -11,7 +11,7 @@ export default function FooterTag(props) {
             target="_blank"
         >
             <img
-                src={`icons/google/${props.icon}.svg`}
+                src={`content/icons/google/${props.icon}.svg`}
                 alt={props.title}
                 title={props.title}
             />

@@ -11,10 +11,10 @@ const Card = ({
             return `url('${thumbnailRemote}')`
         }
         if (thumbnail) {
-            return `url('images/${thumbnail}')`
+            return `url('content/images/${thumbnail}')`
         }
         if (icon) {
-            return `url('icons/${icon}.svg')`
+            return `url('content/icons/${icon}.svg')`
         }
         return ''
     }

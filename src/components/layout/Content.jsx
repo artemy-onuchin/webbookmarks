@@ -46,7 +46,7 @@ const Content = ({active}) => {
                     className="card__list-info"
                     onClick={() => setVisibleDesc(!visibleDesc)}
                 >
-                    <img width="12" height="12" src="/icons/info.svg" alt="Information"/>
+                    <img width="10" height="10" src="content/icons/info.svg" alt="Information"/>
                     {/*<span className={`card__list-triangle${visibleDesc ? ' _isVisible' : ''}`}></span>*/}
                 </span>
 
