@@ -7,23 +7,8 @@ const Content = ({active}) => {
     const [visibleDesc, setVisibleDesc] = useState(false);
     const el = document.querySelector('.card__list-desc-text')
 
-    let cardList = Data.map((item) => {
-        return(
-            <Card
-                key={item.id}
-                title={item.title}
-                url={item.url}
-                thumbnail={item.thumbnail}
-                thumbnailRemote={item.thumbnailRemote}
-                icon={item.icon}
-                group={item.group}
-                description={item.description}
-                active={active}
-                position={item.position}
-                idgroup={item.idgroup}
-                hideTitle={item.hideTitle}
-            />
-        )
+    const cardList = Data.filter(item => {
+        return item.idgroup === active
     })
 
     let groupName = Groups.map((item)=>{
@@ -47,7 +32,6 @@ const Content = ({active}) => {
                     onClick={() => setVisibleDesc(!visibleDesc)}
                 >
                     <img width="10" height="10" src="content/icons/info.svg" alt="Information"/>
-                    {/*<span className={`card__list-triangle${visibleDesc ? ' _isVisible' : ''}`}></span>*/}
                 </span>
 
                 <span className="card__list-tooltip">
@@ -67,7 +51,22 @@ const Content = ({active}) => {
             </h1>
 
             <div className="card__list">
-                {cardList}
+                {cardList.map(item =>
+                    <Card
+                        key={item.id}
+                        title={item.title}
+                        url={item.url}
+                        thumbnail={item.thumbnail}
+                        thumbnailRemote={item.thumbnailRemote}
+                        icon={item.icon}
+                        group={item.group}
+                        description={item.description}
+                        active={active}
+                        position={item.position}
+                        idgroup={item.idgroup}
+                        hideTitle={item.hideTitle}
+                    />
+                )}
             </div>
         </main>
     );

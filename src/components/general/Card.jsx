@@ -30,7 +30,6 @@ const Card = ({
     }
 
     return (
-        (active === idgroup &&
         <a
             href={url}
             title={title}
@@ -46,7 +45,7 @@ const Card = ({
             {!hideTitle && <span className={style.card__title}>
                 <span>{title}</span>
             </span>}
-        </a>)
+        </a>
     );
 }
 
